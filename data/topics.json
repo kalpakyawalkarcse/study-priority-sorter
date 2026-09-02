@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "subject": "Python",
+        "topic_name": "Dictionaries",
+        "importance": 4,
+        "difficulty": 2,
+        "last_Studied": "2026-09-02"
+    }
+]
