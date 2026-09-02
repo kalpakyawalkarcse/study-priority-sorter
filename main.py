@@ -1,0 +1,1 @@
+print("Study Priority Sorter - Project started successfully")
