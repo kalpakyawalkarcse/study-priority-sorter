@@ -34,10 +34,34 @@ def add_topic():
 
     print("\nTopic added successfully!")
 
+def view_topics():
+    print("\n---- View Topics ----")
+    topics = load_topics()
+    if len(topics) == 0:
+        print("No topics saved yet.")
+        return
+    num = 1 
+    for topic in topics:
+        print("\nTopic number:", num)
+        print("Subject:", topic["subject"])
+        print("Topic:", topic["topic_name"])
+        print("Importance:", topic["importance"])
+        print("Difficulty:", topic["difficulty"])
+        print("Last Studied:", topic["last_Studied"])
+        num = num + 1   
+
 
 def main() :
     print("Welcome to Study Priority Sorter!")
-    add_topic()
+    print("1. Add a new topic")
+    print("2. View all topics")
+    choice = input("Enter your choice (1 or 2): ")
+    if choice == "1":
+        add_topic()
+    elif choice == "2":
+        view_topics()
+    else:
+        print("Invalid choice. Please try again.")
 
 if __name__ == "__main__":
     main()
