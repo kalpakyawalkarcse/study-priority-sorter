@@ -4,6 +4,13 @@
         "topic_name": "Dictionaries",
         "importance": 4,
         "difficulty": 2,
-        "last_Studied": "2026-09-02"
+        "last_Studied": "2026-09-11"
+    },
+    {
+        "subject": "Multivariable calculus and differential equations",
+        "topic_name": "Double integrals",
+        "importance": 3,
+        "difficulty": 3,
+        "last_Studied": "2026-09-11"
     }
 ]
